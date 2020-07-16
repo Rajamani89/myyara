@@ -18,5 +18,5 @@ $URL_4 = "reddit.com/user/" ascii wide
 
 
 condition:
-    uint16(0) ==  $cmdline_1 and $lnkmagic and ( 1 of ($URL_*) )
+    $cmdline_1 and $lnkmagic and ( 1 of ($URL_*) )
 }
