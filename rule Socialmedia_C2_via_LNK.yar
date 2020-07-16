@@ -9,7 +9,7 @@ Reference_1 = "https://www.welivesecurity.com/2020/07/09/more-evil-deep-look-evi
 Reference_2 = "https://github.com/eset/malware-ioc/tree/master/evilnum"
 
 strings:
-$cmdline_1 = "C:\Windows\System32\cmd.exe" ascii wide
+$cmdline_1 = "C:\\Windows\\System32\\cmd.exe" ascii wide
 $lnkmagic = {4C 00 00 00 01 14 02 00}
 $URL_1 = "gitlab.com/" ascii wide
 $URL_2 = "raw.githubusercontent.com" ascii wide
