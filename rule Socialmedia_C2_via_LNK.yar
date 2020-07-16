@@ -2,7 +2,7 @@ rule Socialmedia_C2_via_LNK
 {
 meta:
 
-description = "Detect C2 channels in "
+description = "Detect C2 channels in lnk file"
 author = "Raj"
 date = "2019-07-16"
 Reference_1 = "https://www.welivesecurity.com/2020/07/09/more-evil-deep-look-evilnum-toolset/"
