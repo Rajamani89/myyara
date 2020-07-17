@@ -15,6 +15,10 @@ $URL_1 = "gitlab.com/" ascii wide
 $URL_2 = "raw.githubusercontent.com" ascii wide
 $URL_3 = "digitalpoint.com/members" ascii wide
 $URL_4 = "reddit.com/user/" ascii wide
+$URL_5 = "facebook.com/" ascii wide
+$URL_6 = "twitter.com" ascii wide
+$URL_7 = "wechat.com"  ascii wide
+$URL_8 = "telegram.com" ascii wide
 
 
 condition:
