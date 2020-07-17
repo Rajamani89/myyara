@@ -19,6 +19,7 @@ $URL_5 = "facebook.com/" ascii wide
 $URL_6 = "twitter.com" ascii wide
 $URL_7 = "wechat.com"  ascii wide
 $URL_8 = "telegram.com" ascii wide
+$URL_9 = "youtube.com" ascii wide
 
 
 condition:
