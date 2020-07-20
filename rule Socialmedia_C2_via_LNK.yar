@@ -10,7 +10,13 @@ Reference_2 = "https://github.com/eset/malware-ioc/tree/master/evilnum"
 
 strings:
 $cmdline_1 = "C:\\Windows\\System32\\cmd.exe" ascii wide
+/*
+    This is to match cmd.exe in the content
+*/
 $lnkmagic = {4C 00 00 00 01 14 02 00}
+/*
+    Magic number for lnk files
+*/
 $URL_1 = "gitlab.com/" ascii wide
 $URL_2 = "raw.githubusercontent.com" ascii wide
 $URL_3 = "digitalpoint.com/members" ascii wide
@@ -21,6 +27,9 @@ $URL_7 = "wechat.com"  ascii wide
 $URL_8 = "telegram.com" ascii wide
 $URL_9= "t.me/" ascii wide
 $URL_10 = "youtube.com" ascii wide
+/*
+    All social media urls in the content github,digital point ,reddit,facebook,twitter,telegram,wechat,youtube
+*/
 
 condition:
     $cmdline_1 and $lnkmagic and ( 1 of ($URL_*) )
